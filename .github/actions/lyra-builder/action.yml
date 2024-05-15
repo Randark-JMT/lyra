@@ -7,4 +7,4 @@ runs:
   steps:
     - shell: bash
       run: |
-        bazel build -c opt lyra/cli_example:decoder_main
+        bazelisk build -c opt lyra/cli_example:decoder_main
