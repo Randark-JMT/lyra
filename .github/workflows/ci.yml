@@ -17,6 +17,3 @@ jobs:
         uses: ./.github/actions/setup-lyra-deps
       - name: Build and upload
         uses: ./.github/actions/lyra-builder
-        with:
-          platform: linux
-          architecture: amd64
